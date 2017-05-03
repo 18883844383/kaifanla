@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/fancybox.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/slider.css"/>
+</head>
+<body >
+    <header>
+        <div class="header-inner header-top clear">
+            <ul class="index-top-nav lf">
+                <li><a href="#">登录</a></li>
+                <li><b></b><a href="#">注册</a></li>
+            </ul>
+            <ul class="index-top-nav rt">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">我的订单</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="header-search clear">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="imgs/summer7.png"/>
+            </div>
+            <div class="search-box">
+                <div class="search">
+                    <input type="search" class="txtSearch"/>
+                    <a href="#" id="btn-kw" class="search-btn"><i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner" data-bottom-top="transform: translateY(-40%);"
+         data-top-bottom="transform: translateY(50%);">
+        <div class="nav-box clear">
+            <div class="nav">
+                <ul class="lf">
+                    <li><a href="#">登录</a></li>
+                    <li><b></b><a href="#">注册</a></li>
+                </ul>
+                <ul class="rt">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我的订单</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="clear">
+            <li>
+               <span>img01</span>
+                <div>
+                    <h3>城市酒店</h3>
+                </div>
+            </li>
+            <li>
+                <span>img01</span>
+                <div>
+                    <h3>MS-Hotel</h3>
+                </div>
+            </li>
+            <li>
+                <span>img01</span>
+                <div>
+                    <h3>MS-Hotel</h3>
+                </div>
+            </li>
+        </ul>
+        <div class="all-search">
+            <ul>
+                <li class="on"><span>国内酒店</span></li>
+                <li><span>短租公寓</span></li>
+                <li class="last">港澳台酒店</li>
+                <li class="empty"></li>
+            </ul>
+            <div class="all-box">
+                <div class="search-wrap">
+                    <form>
+                        <div class="item">
+                            <label for="aim">目的地</label>
+                            <input type="text" id="aim"/>
+                        </div>
+                        <div class="item">
+                            <label for="start">入住</label>
+                            <input type="text" id="start"/>
+                            <label for="leave">离店</label>
+                            <input type="text" id="leave"/>
+                        </div>
+                        <div class="item">
+                            <label for="kw">关键词</label>
+                            <input type="text" id="kw"/>
+                        </div>
+                        <div class="item submit-wrap">
+                            <a class="btn-0" href="#">搜索</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<main>
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="skrollr-body">
+                    <div class="gallery"></div>
+                </div>
+                <div class="scroll-pause" data-anchor-target=".gallery" data-100p-top-top="transform:translateY(100%);" data-top-top="transform:translateY(0%)" data--150p-top-top="" data--300p-top-top="transform:translateY(-100%)">
+
+                    <div class="row" data-anchor-target=".gallery" data-top-top="transform: translateX(0%);" data--150p-top-top="transform: translateX(-50%);">
+                        <div style="background-image:url(imgs/small/coast.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/palmtrees.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/bay.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/sea.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/coast.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/palmtrees.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/bay.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/sea.jpg);" ></div>
+                    </div>
+
+
+                    <div class="row" data-anchor-target=".gallery" data-top-top="transform: translateX(-50%);" data--150p-top-top="transform: translateX(0);">
+
+                        <div style="background-image:url(imgs/small/sea.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/bay.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/palmtrees.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/coast.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/sea.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/bay.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/palmtrees.jpg);" ></div>
+
+                        <div style="background-image:url(imgs/small/coast.jpg);" ></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row city one" >
+            <div class="col-sm-12">
+                <h2>北京</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/beijing.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p class="city-detail" data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">北京作为经济文化中心，不乏豪华特色酒店。或坐落庭院之中，亭台楼阁，竹影婆娑；或将胡同老房子重新建筑构造。历史感与现代空间设计的完美结合，形成看似自相矛盾，却独具别样体验的一流私享酒店。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateX(-100px);opacity:0;"
+                     data-center-top="transform: translateX(0px); opacity: 1">
+                    <div class="product-out">
+                        <div class="product-in">
+                            <img src="imgs/shejishi1.jpg"/>
+                        </div>
+                        <div class="product-detail">
+                            <div class="content-show">
+                                <h4><a href="#">北京杜革私人酒店</a></h4>
+                                <span>29 Sep 2084</span>
+                            </div>
+                            <div class="content-hide">
+                                <p>出了门就是南锣鼓巷，离后海，什刹海都非常的近。入则谧静，出则喧嚣。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="product-out">
+                        <div class="product-in">
+                            <img src="imgs/shejishi2.jpg"/>
+                        </div>
+                        <div class="product-detail">
+                            <div class="content-show">
+                                <h4><a href="#">北京杜革私人酒店</a></h4>
+                                <span>29 Sep 2084</span>
+                            </div>
+                            <div class="content-hide">
+                                <p>出了门就是南锣鼓巷，离后海，什刹海都非常的近。入则谧静，出则喧嚣。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="product-out">
+                        <div class="product-in">
+                            <img src="imgs/shejishi3.jpg"/>
+                        </div>
+                        <div class="product-detail">
+                            <div class="content-show">
+                                <h4><a href="#">北京杜革私人酒店</a></h4>
+                                <span>29 Sep 2084</span>
+                            </div>
+                            <div class="content-hide">
+                                <p>出了门就是南锣鼓巷，离后海，什刹海都非常的近。入则谧静，出则喧嚣。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row city tow">
+            <div class="col-sm-12">
+                <h2>广州</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/guangzhou.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <p class="city-detail">广州是一座复杂的城市，既有光鲜亮丽的现代风格，又有质朴纯粹的市井气息；既有中式文化的浓郁厚重，又有西方世界的激情澎湃。超凡的想象力，跨界的创造力，因而才有这里的设计师酒店的与众不同。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateX(-100px);opacity:0;"
+                     data-center-top="transform: translateX(0px); opacity: 1">
+                    <div class="p-wrapper">
+                        <div class="p-thumb">
+                            <img src="imgs/shejishi7.jpg"/>
+                            <div class="hover">
+                                <div class="hover-iner">
+                                    <a class="fancybox" rel="group" href="imgs/shejishi7.jpg">
+                                        <img src="img/open-icon.png" />
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-text">
+                            <h3><a href="3">广州圣丰索菲特大酒店</a></h3>
+                            <div><p>酒店装修很漂亮，环境服务都很好，同价位推荐</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="p-wrapper">
+                        <div class="p-thumb">
+                            <img src="imgs/shejishi8.jpg"/>
+                            <div class="hover">
+                                <div class="hover-iner">
+                                    <a class="fancybox" rel="group" href="imgs/shejishi8.jpg">
+                                        <img src="img/open-icon.png" />
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-text">
+                            <h3><a href="3">广州白天鹅宾馆</a></h3>
+                            <div><p>全国首家华人设计五星级酒店，历经4年装修后重新复业，故乡水依旧。乐享岭南文化与西方现代化设计全新结合，坐享沙面岛欧陆式景致与珠江一线江景。</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="p-wrapper">
+                        <div class="p-thumb">
+                            <img src="imgs/shejishi9.jpg"/>
+                            <div class="hover">
+                                <div class="hover-iner">
+                                    <a class="fancybox" rel="group" href="imgs/shejishi9.jpg">
+                                        <img src="img/open-icon.png" />
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-text">
+                            <h3><a href="3">广州九龙湖公主酒店</a></h3>
+                            <div><p>酒店太棒了，欧陆风情小镇式以及城堡式设计建造，很有异国风情的味道！</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row city three">
+            <div class="col-sm-12">
+                <h2>大理</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/dali.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <p class="city-detail">洱海近在咫尺，天际就在眼前。大理是所有人的乌托邦，一群人的隐居。美食、酒吧、小店，只有身在其中才能理解这种美。走上阳台，打开天窗，呼吸充满活力的空气，感受无边无尽的自然。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateX(-100px);opacity:0;"
+                     data-center-top="transform: translateX(0px); opacity: 1">
+                    <div class="port1 effect1">
+                        <div class="image-box">
+                            <img src="imgs/shejishi19.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>千里走单骑-杨丽萍艺术酒店</h3>
+                            <p>远眺苍山，近触洱海，沐浴阳光，夜赏繁星。设施齐全，早餐丰盛，阳光晒进房子，躺在床上吃着，值！
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="port1 effect2">
+                        <div class="image-box">
+                            <img src="imgs/shejishi20.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>大理2013艺术酒店</h3>
+                            <p>很有感觉 酒店美 临海 风景真的是醉人 不想走
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="port1 effect3">
+                        <div class="image-box">
+                            <img src="imgs/shejishi21.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>海天之恋精品设计酒店(大理洱海旗舰店)</h3>
+                            <p>离洱海很近，面朝大海很是惬意。房间还有大泡池，不错。</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row city four">
+            <div class="col-sm-12" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <h2>深圳</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/shenzhen.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <p class="city-detail">洱海近在咫尺，天际就在眼前。大理是所有人的乌托邦，一群人的隐居。美食、酒吧、小店，只有身在其中才能理解这种美。走上阳台，打开天窗，呼吸充满活力的空气，感受无边无尽的自然。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateX(-100px);opacity:0;"
+                     data-center-top="transform: translateX(0px); opacity: 1">
+                    <div class="port2 effect1">
+                        <div class="image-box">
+                            <img src="imgs/shejishi22.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>深圳回酒店</h3>
+                            <p>设计感十足 服务贴心 作为设计师觉得去看看室内装修和一些细节创意是十分好的 酒店设施也不错 看的出来都是用心选的 消耗品的质量也挺好</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="port2 effect2">
+                        <div class="image-box">
+                            <img src="imgs/shejishi23.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>深圳蓝楹湾度假酒店</h3>
+                            <p>很不错的体验，很棒的酒店服务。</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-bottom-top="transform:translateY(-100px);opacity:0;"
+                     data-center-top="transform: translateY(0px); opacity: 1">
+                    <div class="port2 effect3">
+                        <div class="image-box">
+                            <img src="imgs/shejishi24.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>深圳摩登克斯酒店</h3>
+                            <p>不错，房间宽敞。装修时尚，床也舒服。购物方便，下次还会住 。</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row city five">
+            <div class="col-sm-12">
+                <h2>三亚</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/sanya.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <p class="city-detail">洱海近在咫尺，天际就在眼前。大理是所有人的乌托邦，一群人的隐居。美食、酒吧、小店，只有身在其中才能理解这种美。走上阳台，打开天窗，呼吸充满活力的空气，感受无边无尽的自然。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="port5 effect1">
+                        <div class="image-box">
+                            <img src="imgs/shejishi28.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dicta dolorum ea, eius, eos eum explicabo fugiat id laudantium minus nam nihil odio optio perspiciatis porro quasi, quo. Architecto?
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="port6 effect1">
+                        <div class="image-box">
+                            <img src="imgs/shejishi27.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dicta dolorum ea, eius, eos eum explicabo fugiat id laudantium minus nam nihil odio optio perspiciatis porro quasi, quo. Architecto?
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="port7 effect1">
+                        <div class="image-box">
+                            <img src="imgs/shejishi26.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dicta dolorum ea, eius, eos eum explicabo fugiat id laudantium minus nam nihil odio optio perspiciatis porro quasi, quo. Architecto?
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row city six">
+            <div class="col-sm-12">
+                <h2>南京</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/nanjing.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <p class="city-detail">洱海近在咫尺，天际就在眼前。大理是所有人的乌托邦，一群人的隐居。美食、酒吧、小店，只有身在其中才能理解这种美。走上阳台，打开天窗，呼吸充满活力的空气，感受无边无尽的自然。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <figure class="effect-caption">
+                        <img src="imgs/shejishi30.jpg"/>
+                        <figcaption>
+                            <div class="effect-caption-wrap">
+                                <h3>Quarter Two-step</h3>
+                                <p>Lorem ipsum dolar.</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <figure class="effect-caption" data-effect-type="revolving-door-left">
+                        <img src="imgs/shejishi29.jpg"/>
+                        <figcaption>
+                            <div class="effect-caption-wrap">
+                                <h3>Quarter Two-step</h3>
+                                <p>Lorem ipsum dolar.</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="port7 effect1">
+                        <div class="image-box">
+                            <img src="imgs/shejishi31.jpg"/>
+                        </div>
+                        <div class="decs">
+                            <h3>Your Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur dicta dolorum ea, eius, eos eum explicabo fugiat id laudantium minus nam nihil odio optio perspiciatis porro quasi, quo. Architecto?
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row city seven">
+            <div class="col-sm-12">
+                <h2>青岛</h2>
+            </div>
+            <div class="col-md-8 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <div class="timeline-thumb">
+                    <div class="thumb">
+                        <img src="imgs/qingdao.jpg" />
+                    </div>
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6" data-300-center-top="transform: scale(0.8); opacity: 0" data-300-center-center="transform: scale(1); opacity: 1">
+                <p class="city-detail">洱海近在咫尺，天际就在眼前。大理是所有人的乌托邦，一群人的隐居。美食、酒吧、小店，只有身在其中才能理解这种美。走上阳台，打开天窗，呼吸充满活力的空气，感受无边无尽的自然。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="timeline-thumb">
+                        <div class="thumb">
+                            <img src="imgs/shejishi32.jpg" />
+                        </div>
+                        <div class="overlay">
+                            <div class="timeline-caption">
+                                <a href="#"><h4>Breakfast</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="timeline-thumb">
+                        <div class="thumb">
+                            <img src="imgs/shejishi33.jpg" />
+                        </div>
+                        <div class="overlay">
+                            <div class="timeline-caption">
+                                <a href="#"><h4>Breakfast</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
+                    <div class="timeline-thumb">
+                        <div class="thumb">
+                            <img src="imgs/shejishi34.jpg" />
+                        </div>
+                        <div class="overlay">
+                            <div class="timeline-caption">
+                                <a href="#"><h4>Breakfast</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="footer">
+        <div class="footer-info">
+            <dl>
+                <dt>加盟合作</dt>
+                <dd><a href="#">酒店加盟</a></dd>
+                <dd><a href="#">分销联盟</a></dd>
+                <dd><a href="#">代理合作</a></dd>
+                <dd><a href="#">广告服务</a></dd>
+                <dd><a href="#">商家中心</a></dd>
+
+            </dl>
+            <dl>
+                <dt>加盟合作</dt>
+                <dd><a href="#">酒店加盟</a></dd>
+                <dd><a href="#">分销联盟</a></dd>
+                <dd><a href="#">代理合作</a></dd>
+                <dd><a href="#">广告服务</a></dd>
+                <dd><a href="#">商家中心</a></dd>
+
+            </dl>
+            <dl>
+                <dt>关于艺龙</dt>
+                <dd><a href="#">关于艺龙</a></dd>
+                <dd><a href="#">酒店大全</a></dd>
+                <dd><a href="#">国际酒店</a></dd>
+                <dd><a href="#">校园招聘</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+
+            </dl>
+            <dl>
+                <dt>艺龙APP下载</dt>
+            </dl>
+            <dl>
+                <dt>艺龙官方微信</dt>
+            </dl>
+        </div>
+        <div class="footer-copy">
+            © 1999 - 2016 eLong, Inc or its affiliates. All Rights Reserved.
+            <a href="#">京ICP证010011号</a>
+            京公网安备
+            <a href="#">11010502026059号</a>
+
+        </div>
+    </div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script src="js/jquery.fancybox-1.3.1.pack.js"></script>
+<script src="js/slider.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".product-detail").hover(function () {
+                $(this).find(".content-hide").slideToggle("fast");
+            },function () {
+                $(this).find(".content-hide").slideToggle("fast");
+            })
+
+
+            $( ".fancybox").fancybox();
+
+//            $('.city img:first-child').hover(function(){
+        //                console.log($(this));
+        //                $(this).addClass('off').siblings().addClass('on');
+        //            },function(){
+        //                $(this).parent().children().addClass('on');
+        //            })
+             });
+
+    </script>
+<script>
+    skrollr.init();
+    $(".slider").slider();
+    $('.all-search>ul').on('click','li',function(){
+        $(this).addClass('on').siblings().removeClass('on');
+    })
+</script>
+
+</body>
+</html>

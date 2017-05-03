@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/skrollr.min.js"></script>
+    <style>
+        body{
+            height:900px;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-top: 700px;
+        }
+        .d1{
+            background: #f0ad4e;
+        }
+        .d2{
+            background: #c7254e;
+        }
+        .d3{
+            background: #d0e9c6;
+        }
+    </style>
+</head>
+<body>
+<div class="d1" data-bottom-top="transform:translateX(-100px);opacity:0;"
+        data-center-top="transform: translateX(0px); opacity: 1"
+        ></div>
+<div class="d2" data-bottom-top="transform:translateY(-100px);opacity:0;"
+     data-center-top="transform: translateY(0px); opacity: 1"
+        ></div>
+<div class="d3" data-bottom-top="transform:translateY(-100px);opacity:0;"
+     data-center-top="transform: translateY(0px); opacity: 1"
+        ></div>
+<script>
+    skrollr.init();
+</script>
+</body>
+</html>

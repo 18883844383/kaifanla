@@ -1,0 +1,356 @@
+
+.product-out{
+    position: relative;
+    margin-bottom: 30px;
+}
+.product-in{
+    position: relative;
+    overflow: hidden;
+
+}
+.product-detail{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+
+}
+.content-hide{
+    margin-top: 15px;
+    display: none;
+}
+/*.product-detail:hover div.content-hide{*/
+    /*display: block;*/
+/*}*/
+
+/**fancyBox弹出框**/
+
+.p-wrapper{
+    padding-top: 20px;
+    overflow: hidden;
+}
+.p-thumb{
+    position: relative;
+}
+.hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.p-wrapper:hover .p-thumb .hover{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+.hover-iner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.hover-iner img{
+    width: auto;
+}
+.hover-iner a{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    margin-left: -18px;
+    margin-top: -18px;
+    background-color: rgba(0,0,0, 0.1);
+    border: 1px solid #f78e21;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+/*****/
+.timeline-thumb{
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid #dbdbdb;
+}
+.timeline-thumb:hover{
+    border-color: #f78e21;
+}
+.timeline-thumb .thumb img{
+    width: 100%;
+
+}
+.timeline-thumb .overlay{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    visibility: hidden;
+    opacity: 0;
+}
+.timeline-thumb:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+/**efffect1***/
+img{max-width: 100%; vertical-align: middle;}
+.port1{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    border: 4px solid rgba(255, 255, 255, 0.9);
+}
+.port1 img{
+    transition: 0.5s;
+    width: 100%;
+}
+.port1:hover img{
+    transform: scale(1.2);
+}
+.decs{
+    position: absolute;
+    top: 0;
+    color: #000;
+    padding: 45px 20px 20px;
+    left: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.port1 .decs{
+    top:-100%;
+    opacity: 0.9;
+    transition:0.5s;
+    padding: 45px 20px 20px;
+    color: #000;
+}
+.port1.effect1:hover .decs{
+    top:0;
+}
+.port1.effect2 .decs{
+    top: auto;
+    bottom: -100%;
+}
+.port1.effect2:hover .decs{
+    bottom: 0;
+}
+.port1.effect3 .decs{
+    top:50%;
+    left:50%;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+.port1.effect3:hover .decs{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 45px 20px 20px;
+}
+/**effect2***/
+.port2{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    perspective: 800px;
+}
+.port2 .decs{
+    z-index: -1;
+    transition:0.6s;
+}
+.port2 img{
+    width: 100%;
+}
+.port2 .image-box{
+    transition:0.4s;
+}
+.port2:hover .image-box{
+    transform:rotateX(80deg);
+    transform-origin: center bottom 0;
+    transition:0.4s;
+}
+.port2.effect1:hover .decs{
+    opacity: 1;
+}
+.port2.effect2 .decs{
+    opacity: 1;
+    top: -100%;
+}
+.port2.effect2:hover .decs{
+    top:0;
+}
+.port2.effect3 .decs{
+    opacity: 1;
+    bottom: -100%;
+    top: auto;
+}
+.port2.effect3:hover .decs{
+    bottom: 0;
+}
+
+.port6{
+    width: 100%;
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    border:4px solid rgba(255, 255, 255, 0.9);
+}
+.port6.effect1{
+    z-index: 8;
+}
+.port6.effect1 img{
+    transtion:0.6s;
+    width: 100%;
+}
+.port6.effect1:hover img{
+    transform: scale(0.3) translateY(110%);
+    position: relative;
+    z-index: 9;
+    transition:0.5s;
+}
+.port6.effect1 .decs{
+    transform:translateY(-100%);
+    opacity: 0;
+    padding: 10px 20px;
+    transition:0.6s;
+}
+.port6.effect1:hover .decs{
+    transform:translateY(0);
+    opacity: 1;
+}
+
+.port7,.port5{
+    width: 100%;
+    overflow:visible;
+    text-align: center;
+    position: relative;
+    border: 4px solid ;
+    border:4px solid rgba(255, 255, 255, 0.9);
+}
+.port5.effect1 img{
+    transition: 0.5s;
+    width: 100%;
+}
+.port5.effect1:hover img{
+    transform: scale(0.5) translateX(-100%);
+    position: relative;
+    z-index: 9;
+    border: 6px solid rgba(255, 255, 255, 0.9);
+}
+.port5.effect1 .decs{
+    transform: translateX(100%);
+    opacity: 0;
+    transition:0.5s;
+    padding:40px 20px 20px 90px;
+
+}
+.port5.effect1:hover .decs{
+    opacity: 1;
+    transform:translateX(0);
+}
+.port7.effect1 .decs{
+    opacity: 0;
+    color: #000000;
+    transition: 0.5s;
+    perspective: 600px;
+    transform: rotateY(90deg);
+    transform-origin: left center 0;
+    position: absolute;
+    left: 0;
+    top:0;
+    width:50%;
+    padding: 18px 10px;
+}
+.port7.effect1:hover .decs{
+    opacity: 1;
+    perspective: 600px;
+    z-index: 99;
+    transform: rotateY(0deg) ;
+}
+.port7.effect1 img{
+    position: relative;
+    left: 0;
+    width: 100%;
+    transition:0.5s;
+
+}
+.port7.effect1:hover img{
+    left: 50%;
+}
+.effect-caption{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.effect-caption img{
+    width: 100%;
+}
+.effect-caption figcaption{
+    position: absolute;
+    transition:500ms;
+    width: 100%;
+    padding: 1rem;
+    color: #000;
+    top: 0;
+    left: 0;
+    transform:translateX(-100%);
+    opacity: 0;
+    z-index: 2;
+    background: rgba(255,255,255,0.7);
+}
+.effect-caption:hover figcaption{
+    opacity: 1;
+    transform:translateX(0);
+}
+.effect-caption-wrap{
+    transform:translateX(200%);
+    transition:500ms 250ms;
+    z-index: auto;
+}
+.effect-caption:hover .effect-caption-wrap{
+    transform:translateX(0);
+}
+.effect-caption[data-effect-type='revolving-door-left']{
+    overflow: visible;
+}
+.effect-caption[data-effect-type='revolving-door-left'] figcaption{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1300px) rotateY(180deg);
+    backface-visibility: hidden;
+}
+.effect-caption[data-effect-type='revolving-door-left'] img{
+    transform: perspective(1300px);
+    transition: 500ms;
+}
+.effect-caption[data-effect-type='revolving-door-left']:hover figcaption{
+    transform: perspective(1300px) rotateY(0deg);
+}
+.effect-caption[data-effect-type='revolving-door-left']:hover img{
+    transform: perspective(1300px) rotateY(-180deg);
+}
+
+
+
+
+
+
